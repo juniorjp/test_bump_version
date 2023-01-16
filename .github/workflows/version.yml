@@ -22,6 +22,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag-prefix: 'v'
-          major-wording: ''
-          minor-wording: ''  
+          major-wording: 'Major'
+          minor-wording: 'Minor'  
           patch-wording: 'Add,Adds,Create,New'
