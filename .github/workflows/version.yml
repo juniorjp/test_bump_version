@@ -22,7 +22,7 @@ jobs:
           tag-prefix: 'v'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-         with:
+        with:
           major-wording: ''
           minor-wording: ''  
           patch-wording: 'Add,Adds,Create,New'
